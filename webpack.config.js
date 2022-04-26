@@ -6,6 +6,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Webpack Boilerplate',
+      template: './src/index.html',
     }),
   ],
   output: {
